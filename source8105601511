@@ -32,7 +32,7 @@ for _, name in pairs(AllowedUsers) do
 end
 
 if not IsAllowed then
-    LocalPlayer:Kick("By TEST HUB: ไม่มีสิทธิ์ใช้งานสคริปต์นี้ !")
+    LocalPlayer:Kick("By TEST HUB: คุณไม่มีสิทธิ์ใช้งานสคริปต์นี้ !")
     return
 end
 
